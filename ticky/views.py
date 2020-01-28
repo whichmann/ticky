@@ -1,5 +1,5 @@
 # Create your views here.
-rom django.http import HttpResponse
+from django.http import HttpResponse
 from django.template import loader
 from .models import Question
 
