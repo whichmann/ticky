@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from "react";
+import Game from "./components/game";
+import Header from "./components/layout/header";
 
-const App = () => {
-    return ( 
-        <h1>React App</h1>
-     );
+function App() {
+  return (
+    <>
+      <Header></Header>
+      <Game></Game>
+    </>
+  );
 }
- export default App;
+
+export default App;
