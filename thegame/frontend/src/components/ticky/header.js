@@ -16,7 +16,7 @@ const Header = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
         <a className="navbar-brand" href="#">
-          Ticky
+          Whichmann
         </a>
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
           <li className="nav-item active">
@@ -26,7 +26,7 @@ const Header = () => {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              Link
+              Ticky
             </a>
           </li>
           <li className="nav-item">
@@ -36,7 +36,7 @@ const Header = () => {
               tabindex="-1"
               aria-disabled="true"
             >
-              Disabled
+            [Available soon]
             </a>
           </li>
         </ul>
